@@ -10,30 +10,43 @@
 // • Sort your array so it’s stored in alphabetical order. Print the array to show that its order has been changed.
 // • Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
 
-let myFavPlaces = ["Turkey", "Indonesia", "Bangkok", "Switzerland", "New Zeeland", "Italy" ]
-console.log("Original Order :" , myFavPlaces)
+let myFavPlaces = [
+  "Turkey",
+  "Indonesia",
+  "Bangkok",
+  "Switzerland",
+  "New Zeeland",
+  "Italy",
+];
+console.log("Original Order :", myFavPlaces);
 
-let sortedOrder = ["Turkey", "Indonesia", "Bangkok", "Switzerland", "New Zeeland", "Italy" ]
+let sortedOrder = [
+  "Turkey",
+  "Indonesia",
+  "Bangkok",
+  "Switzerland",
+  "New Zeeland",
+  "Italy",
+];
 
+console.log("Aplhabetical Order :", sortedOrder.sort());
 
-console.log("Aplhabetical Order :" , sortedOrder.sort())
+console.log("Original List :", myFavPlaces);
 
-console.log("Original List :" , myFavPlaces)
+console.log("Reverse Alphabetical Order :", sortedOrder.sort().reverse());
 
-console.log("Reverse Alphabetical Order :" , sortedOrder.sort().reverse())
+console.log("Original List :", myFavPlaces);
 
-console.log("Original List :" , myFavPlaces)
+myFavPlaces.reverse();
+console.log("Reverse Order", myFavPlaces);
 
-myFavPlaces.reverse()
-console.log("Reverse Order", myFavPlaces)
+myFavPlaces.reverse();
+console.log("Original Order :", myFavPlaces);
 
-myFavPlaces.reverse()
-console.log("Original Order :" , myFavPlaces)
+console.log("Original List :", myFavPlaces);
 
-console.log("Original List :" , myFavPlaces)
+myFavPlaces.sort();
+console.log("Alphabetical Order :", myFavPlaces);
 
-myFavPlaces.sort()
-console.log("Alphabetical Order :" , myFavPlaces)
-
-myFavPlaces.reverse()
-console.log("Reverse Order", myFavPlaces)
+myFavPlaces.reverse();
+console.log("Reverse Order", myFavPlaces);

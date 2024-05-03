@@ -3,20 +3,20 @@
 // • Add one new guest to the beginning of your array.
 // • Add one new guest to the middle of your array. • Use append() to add one new guest to the end of your list. • Print a new set of invitation messages, one for each person in your list.
 
-// let guests : string[] = ["Areeba Fatima", "Anmol Fatima", "Muqaddas fatima"]
+let guests : string[] = ["Areeba Fatima", "Anmol Fatima", "Muqaddas fatima"]
 
-// guests.map((item) => console.log( `Dear ${item}, I found a bigger table for u`))
+guests.map((item) => console.log( `Dear ${item}, I found a bigger table for u`))
 
-// let guestBegin : string = "Umm-e-Habiba"
-// guests.unshift(guestBegin)
-// console.log(guests)
+let guestBegin : string = "Umm-e-Habiba"
+guests.unshift(guestBegin)
+console.log(guests)
 
-// let middleGuest : string = "Ajwah Fatima"
-// let middleIndex = guests.length/2
-// guests.splice(middleIndex ,0, middleGuest)
-// console.log(guests)
+let middleGuest : string = "Ajwah Fatima"
+let middleIndex = guests.length/2
+guests.splice(middleIndex ,0, middleGuest)
+console.log(guests)
 
-// let lastGuest = "Hoorain Fatima"
-// guests.push(lastGuest)
-// console.log(guests)
+let lastGuest = "Hoorain Fatima"
+guests.push(lastGuest)
+console.log(guests)
 

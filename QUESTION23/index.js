@@ -9,7 +9,7 @@ console.log("Is car == 'subaru'? I predict True.");
 console.log(car == 'subaru'); //true
 var colour = 'Green';
 console.log("Is colour == 'Green'? I predict True.");
-console.log(colour == 'Green'); //true
+console.log(colour == Green); //true
 var dress = 'frock';
 console.log("Is dress == 'frock'? I predict True.");
 console.log(dress == 'frock'); //true

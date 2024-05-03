@@ -7,9 +7,9 @@ var guests = ["Umm-e-Habiba", "Areeba Fatima", "Ajwah Fatima", "Anmol Fatima", "
 console.log("I can invite only two people for dinner.");
 while (guests.length > 2) {
     var removedGuest = guests.pop();
-    console.log("Sorry ".concat(removedGuest, ", I can't invite u on dinner"));
+    console.log("Sorry ".concat(removedGuest, ", I can't invite you to dinner."));
 }
-;
-guests.forEach(function (guests) { return console.log("Dear ".concat(guests, " You r still invited on dinner")); });
-guests.splice(0, guests.length);
+for (var i = 0; i < guests.length; i++) {
+    console.log("Dear ".concat(guests[i], ", you are still invited to dinner."));
+}
 console.log(guests);

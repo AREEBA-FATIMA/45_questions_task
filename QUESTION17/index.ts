@@ -3,15 +3,16 @@
 // • Remove guests from your list one at a time until only two names remain in your list. Each time you pop a name from your list, print a message to that person letting them know you’re sorry you can’t invite them to dinner.
 // • Print a message to each of the two people still on your list, letting them know they’re still invited.
 // • Remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end of your program.
+let guests: string[] = ["Umm-e-Habiba", "Areeba Fatima", "Ajwah Fatima", "Anmol Fatima", "Muqaddas Fatima", "Hoorain Fatima"];
 
-let guests = ["Umm-e-Habiba", "Areeba Fatima", "Ajwah Fatima", "Anmol Fatima", "Muqaddas Fatima", "Hoorain Fatima"]
-
-console.log("I can invite only two people for dinner.")
+console.log("I can invite only two people for dinner.");
 while (guests.length > 2) {
-    let removedGuest = guests.pop() 
-console.log(`Sorry ${removedGuest}, I can't invite u on dinner` )
-};
-guests.forEach(guests => console.log(`Dear ${guests} You r still invited on dinner`))
+    let removedGuest: string = guests.pop()!;
+    console.log(`Sorry ${removedGuest}, I can't invite you to dinner.`);
+}
 
-guests.splice(0, guests.length)
-console.log(guests)
+for (let i = 0; i < guests.length; i++) {
+    console.log(`Dear ${guests[i]}, you are still invited to dinner.`);
+}
+
+console.log(guests);
