@@ -20,7 +20,7 @@ function showMagicians(magicians: string[]) {
 
 function makeGreat(magicians: string[]) {
     for (let i = 0; i < magicians.length; i++) {
-        magicians[i] = "the Great " + magicians[i];
+        magicians[i] = "The Great " + magicians[i];
     }
 }
 
