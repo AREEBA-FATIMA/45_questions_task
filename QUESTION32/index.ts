@@ -15,15 +15,4 @@ for (let i = 0; i < new_users.length; i++) {
         console.log(`Congratulations! The username '${new_users[i]}' is available.`);
     }
  }
-// let current_users = ["Ayesha", "Areeba", "Muqaddas", "Umm-e-Habiba", "Anmol"];
-// let new_users = ["Areeba", "Ajwah", "Hoorain", "Anmol", "Ayesha"];
-
-// for (let i = 0; i < new_users.length; i++) {
-//     let newUser = new_users[i].toLowerCase();
-//     if (current_users.map(user => user.toLowerCase()).includes(newUser)) {
-//         console.log(`Sorry, the username '${new_users[i]}' is already taken. Please choose a different one.`);
-//     } else {
-//         console.log(`Congratulations! The username '${new_users[i]}' is available.`);
-//     }
-// }
 
